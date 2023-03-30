@@ -13,6 +13,6 @@ jobs:
       - name: Cog login"
         run: echo "8b0cc99692a5312526fbc6a1d40456750dbd39a1" | cog login --token-stdin
       - name: Download weights
-        run: cog run script/download-weights
+        run: python script/download.py
       - name: Push to CI model on Replicate
         run: cog push r8.im/moezilla/artjourney-anime
