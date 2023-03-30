@@ -15,7 +15,7 @@ It uses three pipelines:
 
 > There have many limitations for now because diffusers didn't support all Stable Diffusion WebUI features.
 
-## Development
+## Developmentb
 
 ### Prepare Batter VAE model
 
