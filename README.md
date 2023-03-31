@@ -1,4 +1,4 @@
-Pastel Mix on Rplicate.jbn.
+Pastel Mix on Rplicate.jbn..
 ===
 
 This model use [andite/pastel-mix](https://huggingface.co/andite/pastel-mix) `better-vae` version and diffusers with three pipelines to generate images.
