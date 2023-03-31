@@ -5,5 +5,5 @@ token = "8b0cc99692a5312526fbc6a1d40456750dbd39a1"
 os.system(f"echo {token} | cog login --token-stdin")
 os.system("pip3 install -r scripts/requirements.txt")
 os.system("cog push r8.im/moezilla/artjourney-anime")
-os.system("python3 scripts/download.py)
+os.system("python3 scripts/download.py")
 
