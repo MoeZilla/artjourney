@@ -3,6 +3,7 @@ os.system("curl -o /usr/local/bin/cog -L https://github.com/replicate/cog/releas
 os.system("chmod +x /usr/local/bin/cog")
 token = "8b0cc99692a5312526fbc6a1d40456750dbd39a1"
 os.system(f"echo {token} | cog login --token-stdin")
-os.system("pip install -r scripts/requirements.txt")
-os.system("cog push r8.im/moezilla/artjourney-anime")
+os.system("pip3 install diffusers omegaconf transformers safetensors")
 os.system("python3 scripts/download.py")
+os.system("cog push r8.im/moezilla/artjourney-anime")
+
